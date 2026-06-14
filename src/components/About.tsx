@@ -12,50 +12,29 @@ export default function About() {
             了解更多
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            我是一名充满激情的全栈开发工程师，致力于创造有价值的产品
+            主攻游戏设计，热爱独立游戏开发
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="relative">
-            <div className="absolute -top-4 -left-4 w-full h-full bg-gradient-to-br from-blue-400 to-purple-500 rounded-2xl opacity-20" />
-            <div className="relative bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8">
-              <img
-                src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20software%20developer%20portrait%20modern%20style&image_size=portrait_4_3"
-                alt="个人照片"
-                className="w-full h-64 object-cover rounded-xl"
-              />
-            </div>
-          </div>
-
-          <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-4">
+        <div className="max-w-3xl mx-auto">
+          <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8">
+            <h3 className="text-2xl font-bold text-gray-800 mb-4 text-center">
               {personalInfo.name}
             </h3>
-            <p className="text-gray-600 mb-6 leading-relaxed">
+            <p className="text-gray-600 mb-4 leading-relaxed text-center">
               {personalInfo.bio}
             </p>
-            <p className="text-gray-600 mb-8 leading-relaxed">
-              在过去的几年里，我参与了多个大型项目的开发，从初创公司到企业级应用。我热爱解决复杂问题，并且始终保持学习新技术的热情。
+            <p className="text-gray-600 mb-6 leading-relaxed text-center">
+              {personalInfo.education}
             </p>
-
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-gray-50 rounded-xl p-4 text-center">
-                <div className="text-3xl font-bold text-blue-600">5+</div>
-                <div className="text-sm text-gray-500">年工作经验</div>
-              </div>
-              <div className="bg-gray-50 rounded-xl p-4 text-center">
-                <div className="text-3xl font-bold text-purple-600">20+</div>
-                <div className="text-sm text-gray-500">完成项目</div>
-              </div>
-              <div className="bg-gray-50 rounded-xl p-4 text-center">
-                <div className="text-3xl font-bold text-green-600">100%</div>
-                <div className="text-sm text-gray-500">客户满意度</div>
-              </div>
-              <div className="bg-gray-50 rounded-xl p-4 text-center">
-                <div className="text-3xl font-bold text-orange-600">50+</div>
-                <div className="text-sm text-gray-500">技术栈</div>
-              </div>
+            
+            <div className="border-t border-gray-200 pt-6 mt-6">
+              <p className="text-gray-600 leading-relaxed">
+                我热衷于探索游戏设计的各种可能性，从核心玩法机制到关卡设计，再到玩家体验优化。在开发过程中，我习惯使用Godot引擎，它让我能够快速实现创意想法并进行迭代测试。
+              </p>
+              <p className="text-gray-600 leading-relaxed mt-4">
+                除了独立开发，我也积极参与GameJam等活动，在有限的时间内与团队成员协作，锻炼快速开发能力和创意思维。每一次项目都是学习和成长的机会。
+              </p>
             </div>
           </div>
         </div>
