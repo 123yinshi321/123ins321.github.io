@@ -1,57 +1,46 @@
-# React + TypeScript + Vite
+# 123隐士321 个人主页
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+这是一个基于 GitHub Pages 的静态个人主页网站。
 
-Currently, two official plugins are available:
+## 网站内容
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+个人主页展示了以下内容：
 
-## Expanding the ESLint configuration
+- **自我介绍** - 个人简介和技能列表
+- **进行中的项目** - 当前正在开发的项目
+- **项目经历** - 已完成的项目作品
+  - 赌徒循环 (Steam)
+  - 命运循环 (TapTap)
+  - 洪室 (Game Jam)
+- **学习记录** - 教育背景和学习历程
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 技术栈
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- 纯 HTML + CSS + JavaScript
+- Google Fonts (Noto Sans SC, JetBrains Mono)
+- Lucide Icons
+
+## 部署方式
+
+该网站通过 GitHub Pages 自动部署：
+
+1. 将代码推送到 `master` 分支
+2. GitHub 会自动构建并部署到 `https://123yinshi321.github.io/123ins321.github.io/`
+
+## 本地运行
+
+直接在浏览器中打开 `index.html` 文件即可查看网站。
+
+## 文件结构
+
+```
+.
+├── index.html      # 主页面
+├── .nojekyll       # GitHub Pages 配置
+└── README.md       # 项目说明
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 联系方式
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  extends: [
-    // other configs...
-    // Enable lint rules for React
-    reactX.configs['recommended-typescript'],
-    // Enable lint rules for React DOM
-    reactDom.configs.recommended,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- GitHub: [@123yinshi321](https://github.com/123yinshi321)
+- Email: 2930006505@qq.com
