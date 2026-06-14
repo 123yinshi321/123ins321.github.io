@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail, Gamepad2, Smartphone } from 'lucide-react';
 import { socialLinks, personalInfo } from '../data/mockData';
 
 const iconMap: { [key: string]: React.ComponentType<{ size?: number | string; className?: string }> } = {
@@ -6,6 +6,8 @@ const iconMap: { [key: string]: React.ComponentType<{ size?: number | string; cl
   Linkedin,
   Twitter,
   Mail,
+  Gamepad2,
+  Smartphone,
 };
 
 export default function Contact() {
